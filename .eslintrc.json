@@ -1,0 +1,20 @@
+{
+  "plugins": [
+    "jsx-a11y",
+    "jest-dom",
+    "jest"
+  ],
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:storybook/recommended",
+    "airbnb",
+    "airbnb-typescript",
+    "prettier"
+  ],
+  "env": {
+    "jest/globals": true
+  },
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
+}
