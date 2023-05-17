@@ -1,7 +1,6 @@
 .dsa--dark {
   --dsa-color-white: #ffffff;
   --dsa-color-black: #111111;
-
   --dsa-theme-background: var(--dsa-color-black);
 
   --dsa-color-blue-100: var(--dsa-color-static-blue-100);

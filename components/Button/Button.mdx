@@ -1,0 +1,35 @@
+import {
+  Meta,
+  Story,
+  ArgsTable,
+  Canvas,
+  Controls,
+  Stories,
+} from "@storybook/addon-docs";
+import { Button } from "../Button";
+import * as ButtonStories from "./Button.stories.tsx";
+
+<Meta of={ButtonStories} />
+
+# Button
+
+This button component uses the headless UI button component from react-aria-components.
+
+For more information, see their button documentation [here](https://react-spectrum.adobe.com/react-aria/Button.html).
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Component API](#component-api)
+  - [Button `variant`](#button-intent)
+- [References](#references)
+
+## Overview
+
+<Stories />
+
+## Component API
+
+In addition to the default API [here](https://react-spectrum.adobe.com/react-aria/Button.html), you can select which button variant to render using the `variant` prop.
+
+<ArgsTable of={Button} />

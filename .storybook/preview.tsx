@@ -14,7 +14,7 @@ function ThemeToggler({ globalTheme }: ThemeTogglerProps) {
   useEffect(() => {
     if (colorScheme !== globalTheme) setColorScheme(globalTheme);
   }, [colorScheme, globalTheme, setColorScheme]);
-  return <div />;
+  return null;
 }
 
 const preview: Preview = {

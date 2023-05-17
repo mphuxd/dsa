@@ -16,7 +16,7 @@ export interface ButtonProps extends AriaButtonProps {
 
 function Button({ variant = "primary", ...props }: ButtonProps) {
   const { colorScheme } = useContext(ThemeContext);
-  // only have to use this for components with more complex styles between themes
+  // only have to use this for components with more complex styles across themes
   return (
     <AriaButton
       className={cx(styles, "dsa-button", "dsa-button-core", {
