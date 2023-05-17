@@ -1,0 +1,32 @@
+.dsa--light {
+  --dsa-color-white: #ffffff;
+  --dsa-color-black: #111111;
+  --dsa-theme-background: var(--dsa-color-white);
+
+  --dsa-color-blue-100: var(--dsa-color-static-blue-100);
+  --dsa-color-blue-200: var(--dsa-color-static-blue-200);
+  --dsa-color-blue-300: var(--dsa-color-static-blue-300);
+  --dsa-color-blue-400: var(--dsa-color-static-blue-400);
+  --dsa-color-blue-500: var(--dsa-color-static-blue-500);
+  --dsa-color-blue-600: var(--dsa-color-static-blue-600);
+  --dsa-color-blue-700: var(--dsa-color-static-blue-700);
+  --dsa-color-blue-800: var(--dsa-color-static-blue-800);
+
+  --dsa-color-red-100: var(--dsa-color-static-red-100);
+  --dsa-color-red-200: var(--dsa-color-static-red-200);
+  --dsa-color-red-300: var(--dsa-color-static-red-300);
+  --dsa-color-red-400: var(--dsa-color-static-red-400);
+  --dsa-color-red-500: var(--dsa-color-static-red-500);
+  --dsa-color-red-600: var(--dsa-color-static-red-600);
+  --dsa-color-red-700: var(--dsa-color-static-red-700);
+  --dsa-color-red-800: var(--dsa-color-static-red-800);
+
+  --dsa-color-gray-100: var(--dsa-color-static-gray-100);
+  --dsa-color-gray-200: var(--dsa-color-static-gray-200);
+  --dsa-color-gray-300: var(--dsa-color-static-gray-300);
+  --dsa-color-gray-400: var(--dsa-color-static-gray-400);
+  --dsa-color-gray-500: var(--dsa-color-static-gray-500);
+  --dsa-color-gray-600: var(--dsa-color-static-gray-600);
+  --dsa-color-gray-700: var(--dsa-color-static-gray-700);
+  --dsa-color-gray-800: var(--dsa-color-static-gray-800);
+}

@@ -1,0 +1,31 @@
+:root {
+  --dsa-color-static-white: #ffffff;
+  --dsa-color-static-black: #212121;
+
+  --dsa-color-static-blue-100: #e6eefe;
+  --dsa-color-static-blue-200: #c2e0f5;
+  --dsa-color-static-blue-300: #90d1ff;
+  --dsa-color-static-blue-400: #5ebcff;
+  --dsa-color-static-blue-500: #3badff;
+  --dsa-color-static-blue-600: #008ff4;
+  --dsa-color-static-blue-700: #0062bf;
+  --dsa-color-static-blue-800: #003b74;
+
+  --dsa-color-static-red-100: #ffe5e8;
+  --dsa-color-static-red-200: #f9c5c5;
+  --dsa-color-static-red-300: #f07d7d;
+  --dsa-color-static-red-400: #d83a3a;
+  --dsa-color-static-red-500: #cd1010;
+  --dsa-color-static-red-600: #a50d0d;
+  --dsa-color-static-red-700: #750e13;
+  --dsa-color-static-red-800: #520408;
+
+  --dsa-color-static-gray-100: #edebeb;
+  --dsa-color-static-gray-200: #dedede;
+  --dsa-color-static-gray-300: #c6c6c6;
+  --dsa-color-static-gray-400: #a8a8a8;
+  --dsa-color-static-gray-500: #6f6f6f;
+  --dsa-color-static-gray-600: #525252;
+  --dsa-color-static-gray-700: #393939;
+  --dsa-color-static-gray-800: #212121;
+}

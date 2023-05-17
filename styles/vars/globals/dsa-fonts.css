@@ -1,0 +1,24 @@
+:root {
+  --dsa-font-weight-thin: 100;
+  --dsa-font-weight-ultra-light: 200;
+  --dsa-font-weight-light: 300;
+  --dsa-font-weight-regular: 400;
+  --dsa-font-weight-medium: 500;
+  --dsa-font-weight-semi-bold: 600;
+  --dsa-font-weight-bold: 700;
+  --dsa-font-weight-extra-bold: 800;
+  --dsa-font-weight-black: 900;
+  --dsa-font-style-regular: normal;
+  --dsa-font-style-italic: italic;
+
+  --dsa-font-size-100: 8px;
+  --dsa-font-size-150: 12px;
+  --dsa-font-size-175: 14px;
+  --dsa-font-size-200: 16px;
+  --dsa-font-size-300: 18px;
+  --dsa-font-size-400: 20px;
+  --dsa-font-size-500: 24px;
+  --dsa-font-size-600: 26px;
+  --dsa-font-size-700: 28px;
+  --dsa-font-size-800: 32px;
+}

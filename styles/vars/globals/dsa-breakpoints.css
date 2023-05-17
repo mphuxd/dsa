@@ -1,0 +1,8 @@
+:root {
+  --dsa-breakpoint-xs: 320px;
+  --dsa-breakpoint-sm: 640px;
+  --dsa-breakpoint-md: 768px;
+  --dsa-breakpoint-lg: 1024px;
+  --dsa-breakpoint-xl: 1280px;
+  --dsa-breakpoint-2xl: 1568px;
+}

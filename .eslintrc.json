@@ -4,17 +4,44 @@
     "jest-dom",
     "jest"
   ],
-  "extends": [
-    "next/core-web-vitals",
-    "plugin:storybook/recommended",
-    "airbnb",
-    "airbnb-typescript",
-    "prettier"
-  ],
   "env": {
     "jest/globals": true
   },
-  "parserOptions": {
-    "project": "./tsconfig.json"
-  }
+  "overrides": [
+    {
+      "files": [
+        "*.ts",
+        "*.*.ts",
+        "*.tsx",
+        "*.js",
+        "*.jsx",
+        "*.css",
+        "*.md",
+        "*.mdx"
+      ],
+      "rules": {
+        "react/tsx-filename-extension": "off",
+        "react/jsx-props-no-spreading": "off",
+        "react/jsx-no-constructed-context-values": "off",
+        "import/prefer-default-export": "off"
+      },
+      "extends": [
+        "next/core-web-vitals",
+        "airbnb",
+        "airbnb-typescript",
+        "prettier",
+        "plugin:storybook/recommended",
+        "plugin:mdx/recommended"
+      ],
+      "settings": {
+        "mdx/code-blocks": true
+      },
+      "parserOptions": {
+        "ecmaVersion": 6,
+        "project": [
+          "./tsconfig.json"
+        ]
+      }
+    }
+  ]
 }

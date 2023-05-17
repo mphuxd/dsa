@@ -1,0 +1,155 @@
+.dsa-button-core {
+  height: var(--dsa-button-height);
+  padding: 0 var(--dsa-button-padding-x);
+  border-width: var(--dsa-button-border-width);
+  border-radius: var(--dsa-button-border-radius);
+  font-family: var(--dsa-button-button-label-font-family);
+  font-style: var(--dsa-button-button-label-font-style);
+  font-weight: var(--dsa-button-button-label-font-weight);
+  font-size: var(--dsa-button-button-label-font-size);
+  line-height: var(--dsa-button-button-label-font-line-height);
+  letter-spacing: var(--dsa-button-button-label-font-letter-spacing);
+  text-transform: capitalize;
+  box-shadow: inset 0 0 0 calc(1px + var(--dsa-focus-ring-width))
+    var(--dsa-focus-ring-inset-color);
+  outline: none;
+  border-style: solid;
+}
+
+.dsa-button-primary {
+  color: var(--dsa-button-primary--label);
+  background-color: var(--dsa-button-primary);
+  border-color: var(--dsa-button-primary);
+
+  &[data-hovered] {
+    background-color: var(--dsa-button-primary--hover);
+  }
+
+  &[data-pressed] {
+    background-color: var(--dsa-button-primary--active);
+  }
+
+  &[data-focus-visible] {
+    --dsa-focus-ring-inset-color: var(
+      --dsa-button-primary--focus-ring-inset-color
+    );
+  }
+
+  &:disabled {
+    background-color: var(--dsa-button-primary--disabled);
+    color: var(--dsa-button-primary--label-disabled);
+    border-color: var(--dsa-button-primary--disabled);
+  }
+}
+
+.dsa-button-secondary {
+  color: var(--dsa-button-secondary--label);
+  background-color: var(--dsa-button-secondary);
+  border-color: transparent;
+
+  &[data-hovered] {
+    background-color: var(--dsa-button-secondary--hover);
+  }
+
+  &[data-pressed] {
+    background-color: var(--dsa-button-secondary--active);
+  }
+
+  &[data-focus-visible] {
+    --dsa-focus-ring-inset-color: var(
+      --dsa-button-secondary--focus-ring-inset-color
+    );
+    border-color: var(--dsa-focus-ring--color);
+  }
+
+  &:disabled {
+    background-color: var(--dsa-button-secondary--disabled);
+    color: var(--dsa-button-secondary--label-disabled);
+    border-color: var(--dsa-button-secondary--disabled);
+  }
+}
+
+.dsa-button-tertiary {
+  color: var(--dsa-button-tertiary--label);
+  background-color: var(--dsa-button-tertiary);
+  border-color: var(--dsa-button-tertiary--border);
+
+  &[data-hovered] {
+    background-color: var(--dsa-button-tertiary--hover);
+  }
+
+  &[data-pressed] {
+    color: var(--dsa-button-tertiary--label-active);
+    background-color: var(--dsa-button-tertiary--active);
+  }
+
+  &[data-focus-visible] {
+    --dsa-focus-ring-inset-color: var(
+      --dsa-button-tertiary--focus-ring-inset-color
+    );
+    border-color: var(--dsa-focus-ring--color);
+  }
+
+  &:disabled {
+    background-color: var(--dsa-button-tertiary--disabled);
+    color: var(--dsa-button-tertiary--label-disabled);
+    border-color: var(--dsa-button-tertiary--border-disabled);
+  }
+}
+
+.dsa-button-danger {
+  color: var(--dsa-button-danger--label);
+  background-color: var(--dsa-button-danger);
+  border-color: var(--dsa-button-danger--border);
+
+  &[data-hovered] {
+    background-color: var(--dsa-button-danger--hover);
+    border-color: transparent;
+    color: var(--dsa-button-danger--label-hover);
+  }
+
+  &[data-pressed] {
+    color: var(--dsa-button-danger--label-active);
+    background-color: var(--dsa-button-danger--active);
+  }
+
+  &[data-focus-visible] {
+    --dsa-focus-ring-inset-color: var(
+      --dsa-button-danger--focus-ring-inset-color
+    );
+    border-color: var(--dsa-focus-ring--color);
+  }
+
+  &:disabled {
+    background-color: var(--dsa-button-danger--disabled);
+    color: var(--dsa-button-danger--label-disabled);
+    border-color: var(--dsa-button-danger--border-disabled);
+  }
+}
+
+.dsa-button-ghost {
+  color: var(--dsa-button-ghost--label);
+  background-color: var(--dsa-button-ghost);
+  border-color: var(--dsa-button-ghost--border);
+
+  &[data-hovered] {
+    background-color: var(--dsa-button-ghost--hover);
+    border-color: transparent;
+  }
+
+  &[data-pressed] {
+    background-color: var(--dsa-button-ghost--active);
+  }
+
+  &[data-focus-visible] {
+    --dsa-focus-ring-inset-color: var(
+      --dsa-button-danger--focus-ring-inset-color
+    );
+    border-color: var(--dsa-focus-ring--color);
+  }
+
+  &:disabled {
+    color: var(--dsa-button-ghost--label-disabled);
+    border-color: var(--dsa-button-ghost--border-disabled);
+  }
+}

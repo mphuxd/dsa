@@ -1,0 +1,11 @@
+:root {
+  --dsa-body-size-s: var(--dsa-font-size-175);
+  --dsa-body-size-m: var(--dsa-font-size-200);
+  --dsa-body-size-l: var(--dsa-font-size-300);
+  --dsa-body-size-xl: var(--dsa-font-size-400);
+
+  --dsa-heading-size-s: var(--dsa-font-size-300);
+  --dsa-heading-size-m: var(--dsa-font-size-400);
+  --dsa-heading-size-l: var(--dsa-font-size-600);
+  --dsa-heading-size-xl: var(--dsa-font-size-800);
+}
